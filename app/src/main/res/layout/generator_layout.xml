@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--layout for GeneratorActivity-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown_500"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_config_body"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/config_body"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="28dp"
+        android:src="@drawable/safe_yellow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="38dp"
+            android:text="@string/lowercase_character_length" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/low_char_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:stepSize="1.0"
+            android:valueFrom="1.0"
+            android:valueTo="24.0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/uppercase_character_length" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/up_char_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:stepSize="1.0"
+            android:valueFrom="1.0"
+            android:valueTo="24.0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/symbol_length" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/symbol_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:stepSize="1.0"
+            android:valueFrom="1.0"
+            android:valueTo="24.0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/digit_length" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/digit_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:stepSize="1.0"
+            android:valueFrom="1.0"
+            android:valueTo="24.0" />
+
+        <TextView
+            android:id="@+id/pswd_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="14dp"
+            android:text="@string/password_length" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/save_configuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="14dp"
+            android:elevation="12dp"
+            android:text="@string/save_configuration"
+            app:cornerRadius="12dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

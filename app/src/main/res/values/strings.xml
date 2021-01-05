@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">UnwiredVault</string>
+    <string name="dummy_pswd">UnW!redF@ult123</string>
+    <string name="empty">Your Vault is empty</string>
+    <string name="save">Save</string>
+    <string name="label_id">Username</string>
+    <string name="label_pswd">Password</string>
+    <string name="label_cpswd">Confirm Password</string>
+    <string name="change_details">Change your account details</string>
+    <string name="generate">Generate</string>
+    <string name="err_different_pswd">Passwords are not the same</string>
+    <string name="err_length_pswd">Passwords can not be null</string>
+    <string name="err_no_selected_item">Selecting one item is required</string>
+    <string name="err_no_id">Username can not be blank</string>
+    <string name="err_no_pswd">Password can not be blank</string>
+    <string name="save_configuration">Save Configuration</string>
+    <string name="lowercase_character_length">Lowercase Character Length</string>
+    <string name="uppercase_character_length">Uppercase Character Length</string>
+    <string name="symbol_length">Symbol Length</string>
+    <string name="digit_length">Digit Length</string>
+    <string name="password_length">Password Length:  </string>
+    <string name="config_body">Configure how complex your password \nwill be via sliders</string>
+    <string name="configure">configure</string>
+    <string name="add_vault">Add Vault</string>
+    <string name="create_your_new_vault">Create your new vault</string>
+    <string name="application">Application</string>
+    <string name="create_vault">Create vault</string>
+    <string name="countdown_final">Click one more to delete</string>
+    <string name="countdown_done">Deleted</string>
+</resources>
